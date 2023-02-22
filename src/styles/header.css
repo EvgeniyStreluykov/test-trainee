@@ -1,0 +1,84 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+
+.header__logo img {
+  cursor: pointer;
+}
+
+.frameL {
+  position: fixed;
+  width: 865px;
+  height: 714px;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.frameR {
+  position: fixed;
+  width: 865px;
+  height: 714.41px;
+  right: -600px;
+  top: 0px;
+  z-index: -1;
+}
+
+@media (max-width:1200px) {
+  .frameL {
+    position: fixed;
+    width: 478px;
+    height: 394px;
+    left: -50px;
+    top: -100px;
+  }
+}
+
+@media (max-width:1200px) {
+  .large-screen {
+    display: none;
+  }
+}
+@media (min-width:1201px) {
+  .small-screen {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .frameL img{
+    position: fixed;
+    width: 156px;
+    height: 110px;
+    left: 0px;
+    top: -10px;
+  }
+  .frameR img{
+    position: fixed;
+    width: 206px;
+    height: 110px;
+    right: 0px;
+    top: 0px;
+  }
+}
+
+@media (max-width: 361px){
+  .frameL img{
+    position: fixed;
+    width: 156px;
+    height: 110px;
+    left: 0px;
+    top: -10px;
+  }
+  .frameR img{
+    position: fixed;
+    width: 206px;
+    height: 110px;
+    right: 0px;
+    top: 0px;
+  }
+}
