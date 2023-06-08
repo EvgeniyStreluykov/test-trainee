@@ -6,7 +6,7 @@ import vector from '../images/vector.png'
 const Timer = () => {
 
   function kek() {
-    const deadline = new Date(2023, 4, 31, 11, 11, 11)
+    const deadline = new Date(2023, 11, 27, 11, 11, 11)
 
     let timerId = null;
 

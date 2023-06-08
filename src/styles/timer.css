@@ -58,11 +58,13 @@
   .timer__items {
     font-size: 36px;
   }
-
+  .timer__item {
+    padding: 0;
+  }
   .timer__names-container img {
     width: 64px;
     height: 40px;
-    margin: 0 15px;
+    margin: 0 5px;
   }
 }
 
